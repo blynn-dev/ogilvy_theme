@@ -1,0 +1,12 @@
+name: Ogilvy
+type: theme
+description: 'Health web sites'
+core: 8.x
+base theme: false
+libraries:
+  - ogilvy/base
+regions:
+  header: Header
+  content: Content
+  sidebar_first: 'Sidebar first'
+  footer: Footer

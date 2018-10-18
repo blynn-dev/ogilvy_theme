@@ -1,0 +1,81 @@
+//per drual 8 html dom names
+
+
+.layout-container{
+    display: block;
+    padding: $content-padding;
+
+    //header 
+    header{
+        width: 100%;
+    }
+
+    header nav{
+        display: inline-block;
+    }
+
+    nav ul, header div{
+        width: inherit;
+    }
+
+    nav li{
+        display: inline-block;
+        padding-right: $content-padding;
+    }
+
+    nav li a{
+        display: inline;
+    }
+
+    nav ul ul{
+        display: none;
+        position: absolute;
+        width: 600px;
+        background: transparent;
+        font-size: small;
+    }
+
+    //breadcrumb
+    #block-ogilvy-breadcrumbs{
+        display: flex;
+        border-top:1px solid $alt;
+    }
+ 
+    //content area
+    main{
+        display: flex;
+
+        .layout-content{
+            display: flex;
+            padding: $content-spacing * 2;
+            width: 80%;
+        }
+
+        h1{
+            font-size: $title-size;
+        }
+
+        h2{
+            font-size: $title-alt;
+        }
+        //sidebar
+        aside{
+            width: auto;
+            padding: $content-spacing;
+
+            h2{
+                font-size: $title-alt / 1.5;
+            }
+
+        }
+
+    }
+
+    //editor
+    #block-ogilvy-local-tasks li{
+        display: inline-block;
+        padding: $content-spacing / 3;
+    }
+
+}
+

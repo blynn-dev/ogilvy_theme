@@ -1,0 +1,25 @@
+//order of bundle
+
+//variables
+@import "variables/colors.scss";  
+@import "variables/fonts.scss";      
+@import "variables/layout.scss";    
+@import "variables/icons.scss";    
+
+//third-party
+@import "third-party/normalize.scss";  
+@import "third-party/bootstrap/bootstrap.scss";  
+@import "third-party/drupal.scss";  
+
+//layout 
+@import "layout/defaults.scss";  
+@import "layout/grid.scss";  
+
+//components
+@import "components/header.scss";  
+@import "components/footer.scss";
+@import "components/sidemenu.scss";  
+@import "components/buttons.scss";  
+
+//overrides
+@import "overrides/fixes.scss";  

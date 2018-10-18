@@ -1,0 +1,14 @@
+footer{
+    display: flex;
+    font-size: $default-size;
+    padding: $content-padding;
+    background: $light;
+    border-radius: $corner; 
+
+    a{
+        color: $link;
+        font-size: $default-size - 0.3;
+        padding-right: $content-spacing;
+    }
+
+}

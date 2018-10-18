@@ -1,0 +1,8 @@
+.layout-container header{
+    background: $light;
+    border-radius: $corner;
+}
+
+nav[aria-labelledby='system-breadcrumb'] ol{
+    padding: 0;
+}

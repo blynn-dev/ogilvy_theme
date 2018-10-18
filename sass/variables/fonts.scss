@@ -1,0 +1,19 @@
+//fonts 
+
+//imported fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+$open-sans: 'Open Sans', sans-serif;
+
+//web safe
+$web: arial;
+
+//size
+$default-size: 1.3rem;
+
+//titles
+$title-size: $default-size * 2;
+$title-alt:  $default-size * 1.5;
+
+//smaller size
+$mobile: $default-size / 2 + 1;
+

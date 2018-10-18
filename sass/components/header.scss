@@ -1,0 +1,25 @@
+@import "variables/icons.scss";    
+.layout-container header{
+    display: flex;
+    font-size: $default-size;
+    padding: $content-padding;
+
+    &-hamburger{
+        width: $icon-size;
+        background: $brand;
+        width: $icon-size + 20px;
+        height: $icon-size + 20px;
+    }
+
+    &-link{
+        color: $link;
+        font-size: $default-size + 0.3;
+    }
+
+    &-panel{
+        width: 100%;
+        padding: $content-padding;
+        align-self: baseline;
+    }
+
+}

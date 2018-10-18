@@ -1,0 +1,22 @@
+//buttons and links
+
+a{
+    color: $link;
+    text-decoration: underline;
+}
+
+
+//things inside the content area submitted
+div[property='schema:text']{
+
+    a{
+        color: $success;
+        text-decoration: none;
+
+    &:hover{
+        color: $link;
+    }
+
+    }
+    
+}

@@ -1,0 +1,8 @@
+# ogilivy.libraries.yml
+base:
+  version: VERSION
+  css:
+    component:
+      css/bundle.css: {}
+  js:
+    js/app.js: {}
